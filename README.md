@@ -1,2 +1,2 @@
-# IGN_Troubleshooting_Automation
+# IGN Troubleshooting Automation
 Troubleshooting automation
