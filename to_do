@@ -6,6 +6,8 @@ módulo que indicaría según el servicio, a qué concentrador pertenece el mism
 var = ipaddr_hub
 
 - Condicional de tiempo máximo de ejecución de cada módulo.
+import time
+ time.sleep(secs) #Suspend execution of the calling thread for the given number of seconds.
 
 - Integrar aplicación MTR al módulo serv_deg y serv_deg_dmark
 
