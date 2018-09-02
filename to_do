@@ -1,0 +1,14 @@
+- Crear archivo con las credenciales de acceso.
+name = user_passw
+
+- Desarrollar módulo which_hub
+módulo que indicaría según el servicio, a qué concentrador pertenece el mismo, y tendría como resultado su dirección IP. 
+var = ipaddr_hub
+
+- Condicional de tiempo máximo de ejecución de cada módulo.
+
+- Integrar aplicación MTR al módulo serv_deg y serv_deg_dmark
+
+- Normalización
+    - Conexión de PE a TACACS.
+    - Telnet a SSHv2
