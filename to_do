@@ -5,10 +5,16 @@ name = user_passw
 módulo que indicaría según el servicio, a qué concentrador pertenece el mismo, y tendría como resultado su dirección IP. 
 var = ipaddr_hub
 
-- Condicional de tiempo máximo de ejecución de cada módulo.
+- Tiempo:
+   - Condicional de tiempo máximo de ejecución de cada módulo.
 import time
  time.sleep(secs) #Suspend execution of the calling thread for the given number of seconds.
-
+   
+   - Duración de ejecución de un comando. 
+ from datetime import datetime
+ start = datetime.now()
+ print ('Duración: ', + datetime.now() - start)
+ 
 - Integrar aplicación MTR al módulo serv_deg y serv_deg_dmark
 
 - Normalización
