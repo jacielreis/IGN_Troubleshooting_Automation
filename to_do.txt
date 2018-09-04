@@ -20,3 +20,5 @@ import time
 - Normalización
     - Conexión de PE a TACACS.
     - Telnet a SSHv2
+    
+- setup.py listado de dependencias. 
