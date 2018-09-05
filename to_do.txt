@@ -21,3 +21,4 @@ import time
 - setup.py listado de dependencias. 
 
 - Condicionales para los contadores de las interfaces.
+- Diagnóstico pre-configuración de los túneles.
