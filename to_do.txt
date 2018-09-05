@@ -22,3 +22,6 @@ import time
 
 - Condicionales para los contadores de las interfaces.
 - Diagnóstico pre-configuración de los túneles.
+
+- Almacenar resultado de ping.
+- Elección de concentrador al no tener dmark.
