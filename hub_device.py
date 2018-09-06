@@ -2,9 +2,11 @@
 resultado su dirección IP. var = ipaddr_hub"""
 from netmiko import ConnectHandler
 
+# Solo una prueba
 ipaddr_hub = '0'
 ipaddr_tun = str(input('Ingresa direccion IP del servicio: '))
 ipaddr_tun = ipaddr_tun[0:5]
+# Solo una prueba
 
 if   ipaddr_tun in '10.56. ': 
 	 ipaddr_hub =  '172.21.4.113'     #SCL1-AR1
