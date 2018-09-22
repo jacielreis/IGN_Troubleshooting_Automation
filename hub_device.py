@@ -25,7 +25,7 @@ if len(ip2) == 3:
    print('Ip Public Two ' + returnip2)
    print('Ip Tunnel One ' + returnip3)
 
-if len(ip2) == 4:
+elif len(ip2) == 4:
    print('Tunnel IP is ' + ip2[2] + ' and Tunnel IP is'+ ip2[3])
    returnip1 = ip2[0]  # // primary IP del list#
    returnip2 = ip2[1]  # // second IP del list#
@@ -36,7 +36,7 @@ if len(ip2) == 4:
    print('Ip Tunnel One '+returnip3)
    print('Ip Tunnel Two '+returnip4)
 
-if len(ip2) == 2:
+else
    print('Ip para Teste Ip One ' + ip2[0] + ' and IP Two is'+ ip2[1])
    returnip1 = ip2[0]  # // primary IP del list#
    returnip2 = ip2[1]  # // second IP del list#
