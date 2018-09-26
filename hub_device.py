@@ -2,9 +2,7 @@
 el mismo y tendría como resultado su dirección IP. var = ipaddr_hub"""
 import requests
 from xml.etree import ElementTree
-
-######### IMPORTAR MODO DE ZENDESK###############
-
+########## IMPORTAR MODO DE ZENDESK################
 #service_rid = "5407", 5408, 5402, 5403, 5404, 5405
 service_rid = (input("Enter a number: "))
 # URL Query a QB
